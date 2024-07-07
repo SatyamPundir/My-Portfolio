@@ -15,10 +15,10 @@
 /* css variables */
 :root{
 
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-bg: #222831; /* Darkest color for background */
+    --color-bg-variant: #393E46; /* Medium color for background variant */
+    --color-primary: #FDFFE2; 
+    --color-primary-variant: #EEEEEE; /* Light color for primary variant with transparency */
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -48,7 +48,6 @@ body
     color: var(--color-white);
     line-height: 1.7;
     
-    background-image: url(./assets/waves3down.svg);
 }
 
 /* =========================GENRAL STYLES======================== */
@@ -130,6 +129,7 @@ img{
 }
 
 @media screen and (max-width: 600px){
+    .section{}
     .container
     {
         width: var(--container-width-sm);

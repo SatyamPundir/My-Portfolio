@@ -7,6 +7,9 @@
     gap: 4rem; */
 }
 
+.portfolio__item-image img{
+    height: 14rem;
+}
 .portfolio__item{
     background:var(--color-bg-variant);
     padding:1.3rem;
@@ -27,6 +30,7 @@
 }
 
 .portfolio__item-image{
+    height: auto;
     border-radius: 1.5rem;
     overflow: hidden;
 }

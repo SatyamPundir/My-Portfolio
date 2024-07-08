@@ -15,7 +15,7 @@
 }
 
 .timeline-year {
-    padding: 10px 20px;
+    padding: 10px 5px;
     margin-bottom: 10px;
     cursor: pointer;
     background-color: var(--color-bg-variant);

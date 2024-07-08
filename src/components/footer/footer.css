@@ -90,7 +90,12 @@ footer{
 }
 
 footer a{
-    color: var(--color-bg);
+    color: gray;
+    transition: var(--transition);
+}
+footer a:hover{
+    color: black;
+    font-weight: 600;
 }
 
 .footer__logo {

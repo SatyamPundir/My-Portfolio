@@ -17,10 +17,10 @@
 
     --color-bg: #222831; /* Darkest color for background */
     --color-bg-variant: #393E46; /* Medium color for background variant */
-    --color-primary: #FDFFE2; 
+    --color-primary: #fdffe2; 
     --color-primary-variant: #EEEEEE; /* Light color for primary variant with transparency */
     --color-white: #fff;
-    --color-light: rgba(255,255,255,0.6);
+    --color-light: #fffae2;
 
     --transition: all 400ms ease;
 
@@ -129,7 +129,7 @@ img{
 }
 
 @media screen and (max-width: 600px){
-    .section{}
+
     .container
     {
         width: var(--container-width-sm);

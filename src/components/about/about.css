@@ -25,9 +25,7 @@
 .about__me-image img{
     border-radius: 3rem;
     position: relative;
-    filter:brightness(80%);
-    filter:contrast(1.5);
-    scale: 0.95;
+    scale: 0.91;
     background: rgba(0, 0, 0, 0.2);
     transition: var(--transition);
 
@@ -35,7 +33,7 @@
 
 .about__me-image:hover
 {
-    transform: rotate(0);
+    transform: rotate(0) translateY(-30px);
 }
 .about__me-image:hover img
 {

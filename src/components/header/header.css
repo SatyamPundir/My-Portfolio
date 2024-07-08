@@ -1,10 +1,14 @@
 header
 {
-    height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 
    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 .header__container
 {
@@ -47,22 +51,15 @@ header
 .me
 {
     background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: auto;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 1rem;
+    border-radius: 12rem 12rem 0 0;
+    display: block;
+    height: 30.8rem;
     overflow: hidden;
-    padding: 2rem 0rem 0.5rem 1.5rem;
+    margin: 4rem auto auto;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    width: 25rem;
 }
-.me img
-{
-    
-    position: relative;
-    filter:brightness(80%);
-    filter:contrast(1.5);
-}
+
 
 .scroll__down{
     position: absolute;

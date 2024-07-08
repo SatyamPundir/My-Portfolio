@@ -7,14 +7,19 @@ const Header = () => {
     <header>
 
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Satyam Pundir</h1>
-        <h5 className='text-light'>Fullstack Developer</h5>
+        <div className='intro'>
+          <h5>Hello I'm</h5>
+          <h1>Satyam Pundir</h1>
+          <h5 className='text-light'>FullStack Developer</h5>
+          <h5 className='text-light'>Passionate AI/ML and Cloud enthusiast</h5>
+        </div>
 
         <CTA />
         <HeaderSocials/>
-        <div className="me">
-          <img src="../src/assets/Profile_Pic.png" alt="Profile pic" />
+        <div className='photo'>
+          <div className="me">
+            <img src="../src/assets/DP_NOBG.png" alt="Profile pic" />
+          </div>
         </div>
 
         <a href='#contact' className='scroll__down'>Scroll Down</a>
